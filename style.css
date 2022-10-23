@@ -109,6 +109,7 @@
     border-left: 1px solid #bbb9b9;
     border-right: 1px solid #bbb9b9;
     padding: 14px;
+    
 }
 .dash-top{
     display: flex;
@@ -153,6 +154,7 @@
     border: 1px solid #bbb9b9;
     border-radius: 10px;
     padding: 10px;
+    position: relative;
 }
 .revenue-section{
     display: flex;
@@ -255,10 +257,10 @@
 .line-main{
     display: flex;
     align-items: center;
-    /* justify-content: space-between; */
     gap: 65px;
     padding: 0 22px;
-    bottom: 184.5px;
+    /* top: 200px; */
+    bottom: 60px;
     position: absolute;
 }
 .vertical-line{
